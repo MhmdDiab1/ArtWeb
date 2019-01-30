@@ -1,0 +1,54 @@
+body {
+	background-color:rgb(150,200,150);
+}
+
+
+#Nature{
+	border: 5px black solid;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	margin:80px 20px 20px 20px;
+	font-family: Georgia, serif;
+
+}
+.card{
+	margin:auto ; 
+	margin-top:80px;
+	width: 70rem;
+}
+
+.FullScreen{
+	position: right;
+}
+.btn{
+	float: right;
+}
+.navbar input[type="text"], .navbar textarea{
+	padding:8px;
+	width:100%;
+}
+
+.arrow{
+	cursor:pointer;
+	position:absolute;
+	top:75%;
+	border-style:solid;
+}
+#arrow-left{
+	border-width: 30px 40px 30px 0;
+	border-color: transparent #fff transparent transparent;
+	left:0;
+	margin-left:30px;
+}
+#arrow-right{
+	border-width: 30px 0 30px 40px;
+	border-color: transparent transparent transparent #fff;
+	right:0;
+	margin-right:30px;
+}
+
+#About{
+	text-align: center;
+	margin-top: 50px;
+}
